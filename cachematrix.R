@@ -4,6 +4,7 @@
 ## my_matrix <- makeCacheMatrix(matrix(rnorm(25),5,5)) # square matrix of 5-on-5 filled by generated normal data
 ## cacheSolve(my_matrix) # computes inverse matrix and caches data
 ## cacheSolve(my_matrix) # writes cached matrix, does not compute anything
+## my_matrix$set(matrix(rnorm(25),5,5)) # fill object with new matrix
 
 ## cacheble matrix function
 ## x: initializing matrix
